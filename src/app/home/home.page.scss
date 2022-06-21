@@ -1,27 +1,25 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-grid {
+  width: 100%;
+  height: 100%;
+  background-color: var(--ion-color-success-tint);
+  padding-top: 2em !important;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-button {
+  font-size: 1.6em;
+  width: 90% !important;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+@font-face {
+  font-family: "deseg7";
+  src: url("../../assets/icon/DSEG7Classic-Bold.woff") format('woff');
 }
 
-#container a {
-  text-decoration: none;
+.display {
+  font-size: 2.8em;
+  text-align: right;
+  color: white;
+  font-family: "deseg7";
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
